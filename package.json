@@ -1,0 +1,40 @@
+{
+  "name": "gmc",
+  "version": "0.0.1",
+  "description": "git manager command line",
+  "main": "bin/gmc.js",
+  "keywords": [
+    "toolkit",
+    "cli"
+  ],
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "ffpush": "bin/ffpush.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://taontech@github.com/taontech/gmc"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "colors": "^1.0.3"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node bin/ffpush.js",
+    "test": "node test/test.js"
+  },
+  "engine-strict": true,
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
